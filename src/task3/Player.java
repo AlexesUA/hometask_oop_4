@@ -2,7 +2,9 @@ package task3;
 
 public class Player implements IPlayable, IRecordable{
 
-    int trackNumber;
+    private int trackNumber;
+
+    private char state;
 
 
     public Player(){
@@ -22,6 +24,22 @@ public class Player implements IPlayable, IRecordable{
     // та її простіше модифікувати, якщо то буде необхідно.
     public void goToTrack(int trackNumber){
         setTrackNumber(trackNumber);
+    }
+
+    public char getState() {
+        return state;
+    }
+
+    public boolean setState(char state) {
+        switch (state){
+            case 'l', 'p', 'r', 's' -> {
+                this.state = state; //'l' - play, 'p' - pause, 'r' - rec, 's' - stop
+                return true;
+            }
+
+        }
+        System.out.println("Помилка управління.");
+        return false;
     }
 
     @Override
