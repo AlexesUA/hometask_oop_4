@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6f5d317-b818-4c6c-8a94-341a06850310" name="Changes" comment="Create IConverterToKelvin interface">
-      <change afterPath="$PROJECT_DIR$/src/task5/ConverterTemperature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f6f5d317-b818-4c6c-8a94-341a06850310" name="Changes" comment="Delete all interface&#10;Create ConverterTemperature abstract class">
+      <change afterPath="$PROJECT_DIR$/src/task5/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <workItem from="1680114264109" duration="89000" />
       <workItem from="1680165107820" duration="1108000" />
       <workItem from="1680167072606" duration="3744000" />
-      <workItem from="1680194409578" duration="2168000" />
+      <workItem from="1680194409578" duration="2558000" />
     </task>
     <task id="LOCAL-00001" summary="Create AbstractHandler class">
       <created>1680167669417</created>
@@ -135,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680195794387</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Delete all interface&#10;Create ConverterTemperature abstract class">
+      <created>1680196676456</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680196676456</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +168,8 @@
     <MESSAGE value="finish Main class" />
     <MESSAGE value="Create IConverterToFahrenheit interface" />
     <MESSAGE value="Create IConverterToKelvin interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create IConverterToKelvin interface" />
+    <MESSAGE value="Delete all interface&#10;Create ConverterTemperature abstract class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete all interface&#10;Create ConverterTemperature abstract class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
