@@ -8,10 +8,24 @@ public class Main {
         Scanner scInput = new Scanner(System.in);
 
         Player player = new Player();
+        System.out.println("Вас вітає Player з функцією Record.");
 
         do{
+            System.out.print("Стан Player: ");
+            player.getState();
 
-        }while (player.getState() != 's');
+            char stateKey;
+            do{
+                System.out.print("Виберіть дію ('l' - play, 'p' - pause, 'r' - rec, 's' - stop, 'g' - go to track): ");
+                stateKey = scInput.nextLine().toLowerCase().charAt(0);
+            }while(player.setState(stateKey));
+
+            if(player.getStateKey() == 'g'){
+                System.out.print("Введіть номер трека: ");
+                player.goToTrack(scInput.nextInt());
+            }
+
+        }while (player.getStateKey() != 's');
 
 
 

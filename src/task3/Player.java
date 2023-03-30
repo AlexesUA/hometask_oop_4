@@ -4,12 +4,12 @@ public class Player implements IPlayable, IRecordable{
 
     private int trackNumber;
 
-    private char state;
+    private char stateKey;
 
 
     public Player(){
         trackNumber = 0;
-        state = 's';
+        stateKey = 's';
     }
 
     public int getTrackNumber() {
@@ -27,14 +27,24 @@ public class Player implements IPlayable, IRecordable{
         setTrackNumber(trackNumber);
     }
 
-    public char getState() {
-        return state;
+    public char getStateKey() {
+        return stateKey;
     }
 
-    public boolean setState(char state) {
-        switch (state){
-            case 'l', 'p', 'r', 's' -> {
-                this.state = state; //'l' - play, 'p' - pause, 'r' - rec, 's' - stop
+    public void getState() {
+        switch (stateKey){
+            case 'l' -> play();
+            case 'p' -> pause();
+            case 'r' -> stop();
+            case 's' -> record();
+        }
+    }
+
+    public boolean setState(char stateKey) {
+        switch (stateKey){
+            case 'l', 'p', 'r', 's', 'g' -> {
+                this.stateKey = stateKey; //'l' - play, 'p' - pause, 'r' - rec, 's' - stop, 'g' - go to track
+                if(this.stateKey == 'l') trackNumber++;
                 return true;
             }
 
@@ -61,7 +71,7 @@ public class Player implements IPlayable, IRecordable{
     @Override
     public void record() {
         if(trackNumber == 0) System.out.println("Запис нового трека. ");
-        else System.out.println("Перезаписуємо трек № " + trackNumber);
+        else System.out.println("Перезапис треку № " + trackNumber);
     }
 
 }
