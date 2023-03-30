@@ -9,6 +9,10 @@ public class Main {
 
         Player player = new Player();
 
+        do{
+
+        }while (player.getState() != 's');
+
 
 
     }

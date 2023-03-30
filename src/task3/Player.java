@@ -9,6 +9,7 @@ public class Player implements IPlayable, IRecordable{
 
     public Player(){
         trackNumber = 0;
+        state = 's';
     }
 
     public int getTrackNumber() {
