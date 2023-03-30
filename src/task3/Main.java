@@ -17,8 +17,8 @@ public class Main {
             char stateKey;
             do{
                 System.out.print("Виберіть дію ('l' - play, 'p' - pause, 'r' - rec, 's' - stop, 'g' - go to track): ");
-                stateKey = scInput.nextLine().toLowerCase().charAt(0);
-            }while(player.setState(stateKey));
+                stateKey = scInput.next().toLowerCase().charAt(0);
+            }while(!player.setState(stateKey));
 
             if(player.getStateKey() == 'g'){
                 System.out.print("Введіть номер трека: ");

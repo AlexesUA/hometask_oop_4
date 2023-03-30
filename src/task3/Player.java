@@ -35,8 +35,8 @@ public class Player implements IPlayable, IRecordable{
         switch (stateKey){
             case 'l' -> play();
             case 'p' -> pause();
-            case 'r' -> stop();
-            case 's' -> record();
+            case 'r' -> record();
+            case 's' -> stop();
         }
     }
 
