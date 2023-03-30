@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6f5d317-b818-4c6c-8a94-341a06850310" name="Changes" comment="Create Main class">
-      <change afterPath="$PROJECT_DIR$/src/task3/IPlayable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task3/IRecordable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task3/Player.java" afterDir="false" />
+    <list default="true" id="f6f5d317-b818-4c6c-8a94-341a06850310" name="Changes" comment="create IPlayable &amp; IRecordable interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task3/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task3/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680170539447</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create IPlayable &amp; IRecordable interface">
+      <created>1680173858916</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680173858916</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +112,8 @@
     <MESSAGE value="Create AbstractHandler class" />
     <MESSAGE value="Create DocHandler, TXTHandler &amp; XMLHandler classes" />
     <MESSAGE value="Create Main class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Main class" />
+    <MESSAGE value="create IPlayable &amp; IRecordable interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="create IPlayable &amp; IRecordable interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
