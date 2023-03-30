@@ -2,7 +2,7 @@ package task5;
 
 interface IConverterToFahrenheit {
 
-    default double converter(double celsium){
-        return (celsium * ((double) 9 /5)) + 32;
+    default double converter(double celsius){
+        return (celsius * ((double) 9 /5)) + 32;
     }
 }
