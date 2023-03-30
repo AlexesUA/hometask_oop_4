@@ -8,21 +8,21 @@ public class TXTHandler extends AbstractHandler{
 
     @Override
     void create() {
-        System.out.println("Створення TXT файлу" + fileName);
+        System.out.println("Створення TXT файлу " + fileName);
     }
 
     @Override
     void open() {
-        System.out.println("Відкриття TXT файлу" + fileName);
+        System.out.println("Відкриття TXT файлу " + fileName);
     }
 
     @Override
     void edit() {
-        System.out.println("Редагування TXT файлу" + fileName);
+        System.out.println("Редагування TXT файлу " + fileName);
     }
 
     @Override
     void save() {
-        System.out.println("Збереження TXT файлу" + fileName);
+        System.out.println("Збереження TXT файлу " + fileName);
     }
 }

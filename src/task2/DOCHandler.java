@@ -8,21 +8,21 @@ public class DOCHandler extends AbstractHandler{
 
     @Override
     void create() {
-        System.out.println("Створення DOC файлу" + fileName);
+        System.out.println("Створення DOC файлу " + fileName);
     }
 
     @Override
     void open() {
-        System.out.println("Відкриття DOC файлу" + fileName);
+        System.out.println("Відкриття DOC файлу " + fileName);
     }
 
     @Override
     void edit() {
-        System.out.println("Редагування DOC файлу" + fileName);
+        System.out.println("Редагування DOC файлу " + fileName);
     }
 
     @Override
     void save() {
-        System.out.println("Збереження DOC файлу" + fileName);
+        System.out.println("Збереження DOC файлу " + fileName);
     }
 }
